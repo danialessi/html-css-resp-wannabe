@@ -73,6 +73,7 @@ img {
 }
 
 /* MEDIA QUERIES  */
+/* smartphone media query  */
 @media screen and (max-width: 419px) {
    
   .row {
@@ -88,19 +89,49 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: none;
     width: 100%;
+    float: none;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     margin-top: 40px;
-}
+  }
 
   img {
     height: 150px;
     margin-top: 20px;
+  }
+}
+/* end smartphone media query  */
+
+/* tablet media query  */
+@media screen and (max-width: 768px) {
+  
+  .row {
+    width: 100%;
+ }
+
+  img {
+    height: 170px;
+ }
+
+ #lezioni .row>.left,
+ #lezioni .row>.right {
+   font-size: 15px;
+ }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    font-size: 15px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    font-size: 15px;
   }
 }
 /* END MEDIA QUERIES  */
